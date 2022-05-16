@@ -1,0 +1,38 @@
+** Any time someone on the team imports an asset into the project add the credits for that object here.**
+*At the end of the project the credits on the game will have to contain the source of the assets used in the production of the product and it is way easier to just keep a log of that than re-find the source of the assets later.*
+*The name of the asset/asset package, the name of the author of the asset/asset package and the name of the website hosting the asset/asset package*
+*Example: “Asset Name by AuthorName from website.com”*
+
+Textures/Materials/Sprites:
+
+Models: "Futuristic Security Door by Dantesly from Unity.com"
+	"Drone Guard by Lukas Bobor from Unity.com"
+	"Sim Card by IceAspen from turbosquid.com"
+	"Medieval Torch (worn) by reddification from sketchfab.com"
+	"Doric Twist Pedestal by Nikkip from sketchfab.com"
+	"Ancient Pillar Medieval Column by Medieval Models from turbosquid.com"
+	"Robot Soldier by Marcelo Barrio from Unity.com"
+	"Free PBR Security Camera by Red Dot Lab from Unity.com"
+	"Spotlight and Structure by SpaceZeta from Unity.com"
+	"Magic Swords by Hovl Studio from Unity.com"
+	"ATM(Terminal) by CGY (Yemelyan K.) from Unity.com"
+	
+
+Music: "Chiptune Heist Music by Bertsz from freesound.org"
+
+SFX: "Lasers by SamsterBirdies from freesound.org"
+     "Pick Up Item 1 by SilverIllusionist from freesound.org"
+     "Running/Walking by Juandamb from freesound.org"
+     "Menu Move3 by Tissman from freesound.org"
+     "Beep Short by florianreichelt from freesound.org"
+     "LowVocalPowerDownR LB029403, Lasers MIX24_63_1, KnifeThrow MIX64_63_2, 
+      Transporter HI059801, GrandEntranceDro WHO02_26_3, MetalDoor 9007_55_1,
+      Sci-Fi-Explosion-Laser-Shot-or-Burning-Impact_GEN-HD3-36666, Lasers MIX24_72_2,
+      Water-Splash_OBIN_962, SirenAlert MET01_77_2, HUMAN-GRUNT_GEN-HDF-15100,
+      PromoBeds MIX25_95_2, Voice-Computer-Room-Female-Alert_COMM-2216,
+      AlarmSystemEnterPasscodeTurnOf PEHD060202, HitThud IE03_57_5,
+      Grand-Big-Sweep-Chord-Transition_PET10-333, MetalFenceSlamsClick, ScrapeWood 6056_67_1
+      ScrapeWood 6056_67_1, FOOTSTEPS-OUTDOOR_GEN-HDF-12233 from SourceAudio.com"
+     "birds-consensus, grim, slave-racer, the-last-guardian, till-the-end from Icons8.com"
+     "Pop Flute Loop from DL-Sounds.com"
+     "Explosions and Debris by Superex1110 from freesound.org"

@@ -1,0 +1,128 @@
+Coding Standards and Best Practices
+
+Agreeing Members:
+Adam Stagg
+Alexander Morales
+Owens Nicolas
+
+Purpose
+
+To develop reliable and maintainable applications, you must follow coding standards and best practices.
+The naming conventions, coding standards and best practices described in this document are compiled from our own experience. 
+All team members are always expected to follow the coding standards and best practices.
+
+
+** Folder Heiarchy **
+
+
+** Commenting standards **
+
+	File header expectation
+		Example: FileHeaderExample.cs
+
+		Capital letters and camel cased.		
+
+	Method heading expectation
+		Example: CalculateVelocity()
+
+		Camel cased, first letter capital on public methods, lowercase on private methods
+
+	Code block expectation
+		Example:
+
+
+** Naming convention **
+
+	Meaningful, descriptive words to name variables.
+	Good:
+		string CharacterName;
+		int Row, Column;
+		GameObject SpawnedItem;
+	Not Good:
+		string nam;
+		int i,j;
+		GameObject temp;
+
+	Capitalization expectation
+		Example: public int NumOfPlayers
+		Example: private int numOfPlayers
+		Example: void DoWork(int _numOfPlayers)
+		
+	Camel cased on everything, public is started with a capital, private is lower cased on the first word. Parameters are camel cased, starting with an underscore
+		
+	Abbreviation use 
+		Example: int noOfPlayers
+		Example: int nPlayers
+		
+		Abbreviations are fine for common / easy to understand words
+		
+** Layout Conventions **	
+
+	Indenting standard
+		Example:
+	class Calculator
+		void Calculate()
+			<calculate code>
+	
+	Every time you go into a new scope, it indents again
+
+	Curly braces ( {} ) format
+		Example:
+
+		void Calculate() 
+		{
+			<calculate code>
+		}
+		
+	Blank line expectation
+		Example:
+
+		int MyNum
+		float MyFloat
+
+		void DoThings
+		...
+		}		
+		void DoStuff
+		...
+		}
+
+		At least one line between members / methods 	
+
+	Spacing around operators
+		Example: return a + b;
+
+		Spaces between variables and operators
+
+	Maximum characters per line 
+		If a line goes off the screen, split it up into multiple lines
+		
+	Maximum nested conditions 
+		No limit as long as it does not overflow off the screen	
+	
+	Maximum lines per method
+		No limits, just make comments for large blocks of code		
+	
+	Maximum lines per file
+		No hard limit, but try to keep scripts to one purpose, single responsibility principal
+
+	#region usage
+		
+	Use regions for large chunks of code that are not necessary to be seen at all times, such as math heavy code. 
+		
+** Programming Practices **
+
+	Static values (hardcoded numbers. Const variables, and #defines)
+	
+	Prefer not to hard code, unless obvious.
+	Const anything that doesn't need to be changed in runtime
+	Defines should have a clear name and purpose, easily accessible at the top of a file
+
+	Commenting out code
+
+	If commented code is left in, put a comment at the top explaining what the code does, and why it is commented out
+
+	DRY practices (“Don’t Repeat Yourself")
+	
+	If using code more than twice, extract into a method. Repeating once is fine
+
